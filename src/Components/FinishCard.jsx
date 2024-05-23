@@ -3,7 +3,7 @@ import React from "react";
 const FinishCard = () => {
   return (
     <div>
-      <img />
+      <img src="icon-thank-you.svg" />
       <h1></h1>
       <p></p>
     </div>

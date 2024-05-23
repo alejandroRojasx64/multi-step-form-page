@@ -18,7 +18,7 @@ const Plan = () => {
     <div className={styles.plansContainer}>
       <div className={styles.plans}>
         <button className={!isMonthly ? styles.plansOfYear : undefined}>
-          <img src="../../public/icon-arcade.svg" />
+          <img src="icon-arcade.svg" />
           <span className={styles.descriptionOfPlan}>
             <p className={styles.nameOfPlan}>Arcade</p>
             <p className={styles.price}>
@@ -28,7 +28,7 @@ const Plan = () => {
           </span>
         </button>
         <button className={!isMonthly ? styles.plansOfYear : undefined}>
-          <img src="../../public/icon-advanced.svg" />
+          <img src="icon-advanced.svg" />
           <span className={styles.descriptionOfPlan}>
             <p className={styles.nameOfPlan}>Advanced</p>
             <p className={styles.price}>
@@ -38,7 +38,7 @@ const Plan = () => {
           </span>
         </button>
         <button className={!isMonthly ? styles.plansOfYear : undefined}>
-          <img src="../../public/icon-pro.svg" />
+          <img src="icon-pro.svg" />
           <span className={styles.descriptionOfPlan}>
             <p className={styles.nameOfPlan}>Pro</p>
             <p className={styles.price}>
